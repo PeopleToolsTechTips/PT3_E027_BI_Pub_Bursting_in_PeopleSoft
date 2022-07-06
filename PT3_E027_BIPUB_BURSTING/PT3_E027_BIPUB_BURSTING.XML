@@ -3,12 +3,12 @@
   <instance class="PJM">
     <rowset name="PjmDefn" size="2856" count="1">
       <row>
-        <szLastUpdDttm>2022-07-06-11.14.43.097100</szLastUpdDttm>
+        <szLastUpdDttm>2022-07-06-16.56.02.951303</szLastUpdDttm>
         <szLastUpdOprId>PT3</szLastUpdOprId>
         <szObjectOwnerID></szObjectOwnerID>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>34697</lVersion>
+        <lVersion>34702</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <szProjectName>PT3_E027_BIPUB_BURSTING</szProjectName>
@@ -16,8 +16,8 @@
         <szProjectDescr></szProjectDescr>
         <szSrcDBName>PSHRDM42</szSrcDBName>
         <szSrcOprId>PT3</szSrcOprId>
-        <szSessionId>e1b9f12c-fd1c-11ec-84c5-cb8915dac17a</szSessionId>
-        <szRunDtTm>2022-07-06-11.15.03.097108</szRunDtTm>
+        <szSessionId>9c1194e0-fd4c-11ec-84c5-cb8915dac17a</szSessionId>
+        <szRunDtTm>2022-07-06-16.56.41.951658</szRunDtTm>
         <szTgtServerName></szTgtServerName>
         <szTgtDBName></szTgtDBName>
         <szTgtOprId></szTgtOprId>
@@ -29492,12 +29492,12 @@ BI Pub Bursting Example	</lpszDescrLong>
   <instance class="SRM">
     <rowset name="SrmDefn" size="432" count="1">
       <row>
-        <szLastUpdDttm>2022-07-05-20.59.02.593688</szLastUpdDttm>
+        <szLastUpdDttm>2022-07-06-15.12.17.651578</szLastUpdDttm>
         <szLastUpdOprId>PT3</szLastUpdOprId>
         <szObjectOwnerId>PT3</szObjectOwnerId>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>12614</lVersion>
+        <lVersion>12617</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <szSqlId>X_EE_RPT_LTR_VW</szSqlId>
@@ -29514,11 +29514,11 @@ BI Pub Bursting Example	</lpszDescrLong>
               <cDbType> </cDbType>
               <szEffDt>1900-01-01</szEffDt>
               <szDescr></szDescr>
-              <lSqlTextLen>350</lSqlTextLen>
+              <lSqlTextLen>390</lSqlTextLen>
               <lpszSqlText> POINTER
-                <rowset name="char" size="350" count="1">
+                <rowset name="char" size="390" count="1">
                   <row>
-                    <lpszSqlText>SELECT EMPLID   ,NAME   ,COMPANY  ,DEPTID   ,LOCATION   ,JOBCODE   ,COMPRATE   ,CHANGE_PCT   ,'Locn Descr'   , 'job descr'   , 'company descr'   , ' '   FROM %Table(employees)</lpszSqlText>
+                    <lpszSqlText>SELECT EMPLID   ,NAME   ,COMPANY   ,DEPTID   ,LOCATION   ,JOBCODE   ,COMPRATE   ,CHANGE_PCT   ,'Locn Descr'   , 'job descr'   , 'company descr'   , ' '   FROM %Table(employees) where empl_rcd = 0</lpszSqlText>
                   </row>
                 </rowset>
               </lpszSqlText>
@@ -37328,12 +37328,12 @@ end-method;
   <instance class="XRRDM">
     <rowset name="ReportDefn" size="1792" count="1">
       <row>
-        <szLastUpdDttm>2022-07-04-19.17.42.150984</szLastUpdDttm>
+        <szLastUpdDttm>2022-07-06-15.21.37.891419</szLastUpdDttm>
         <szLastUpdOprId>PT3</szLastUpdOprId>
         <szObjectOwnerId>PT3</szObjectOwnerId>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>56</lVersion>
+        <lVersion>58</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <szReport_defn_id>X_PT3_BIBRST</szReport_defn_id>
@@ -37413,13 +37413,13 @@ end-method;
         <pXprpttmplctrl> POINTER
           <rowset name="RptTmpltCntrl" size="264" count="2">
             <row>
-              <szXpfieldvalue>10500</szXpfieldvalue>
-              <szTemplate_id>X_PT3_BIBRST_HR</szTemplate_id>
+              <szXpfieldvalue>10000</szXpfieldvalue>
+              <szTemplate_id>X_PT3_BIBRST_ACC</szTemplate_id>
               <szLangcd></szLangcd>
             </row>
             <row>
-              <szXpfieldvalue>13000</szXpfieldvalue>
-              <szTemplate_id>X_PT3_BIBRST_ACC</szTemplate_id>
+              <szXpfieldvalue>13110</szXpfieldvalue>
+              <szTemplate_id>X_PT3_BIBRST_HR</szTemplate_id>
               <szLangcd></szLangcd>
             </row>
           </rowset>
