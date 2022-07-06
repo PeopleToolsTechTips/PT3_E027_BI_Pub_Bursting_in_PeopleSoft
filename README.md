@@ -1,4 +1,4 @@
-# PT3 E027 BI Publisher Bursting in PeopleSoft-
+# PT3 E027 BI Publisher Bursting in PeopleSoft
 
 PeopleTools Tech Tips    
 Randy Groncki	2022-07-06
